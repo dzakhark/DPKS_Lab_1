@@ -14,3 +14,8 @@ int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
 }
+
+int Calculator::Abs (double a)
+{
+    return (a >= 0) ? a : a * (-1);
+}
